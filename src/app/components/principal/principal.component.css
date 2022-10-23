@@ -1,0 +1,232 @@
+*{
+  box-sizing: border-box;
+}
+.fondo{
+  background-color: #fafafa;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.logo-bit{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 180px;
+}
+.logo-bit > img{
+  width: 100%;
+}
+.nav{
+  background-color: #070509;
+  height: auto;
+}
+.wrap{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../../../assets/img/img3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-texto{
+  position: absolute;
+  font-family: 'Bowlby One SC';
+  font-size: 90px !important;
+  color: #FFFFFF;
+  padding: 0%;
+  margin: 0%;
+  top: 250px;
+  text-align:center;
+}
+.wrap-texto2{
+  position: absolute;
+  font-family: 'Century Gothic';
+  font-size: 45px !important;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding: 0%;
+  margin: 0%;
+  top: 325px;
+}
+.divider1{
+  position: absolute;
+  width: 800px;
+  height: 0px;
+  top: 400px;
+  border: 1px solid #CBCBCB;
+}
+.divider2{
+  position: absolute;
+  width: 28px;
+  height: 0px;
+  right: 700px;
+  top: 435px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+}
+.wrap-info-date{
+  position: absolute;
+  left: 350px;
+  top: 425px;
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.wrap-info-ubi{
+  position: absolute;
+  right: 350px;
+  top: 425px;
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.btn-registrate{
+    /* BTN */
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 520px;
+  filter: drop-shadow(4px 4px 25px #3C868B);
+  border-radius: 25px;
+  background: linear-gradient(94.02deg, #DDAC00 26.98%, #C11A4C 66.29%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* REGISTRATE */
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.divider3{
+  position: absolute;
+  width: 82.01px;
+  height: 0px;
+  left: calc(100%/3);
+  top: 680px;
+  border: 1px solid #838181;
+  transform: rotate(90.71deg);
+}
+.divider4{
+  position: absolute;
+  width: 82.01px;
+  height: 0px;
+  right: calc(100%/3);
+  top: 680px;
+  border: 1px solid #838181;
+  transform: rotate(90.71deg);
+}
+.contenido{
+  display: flex;
+  align-content: space-between;
+  background-color: #fafafa;
+  align-self: center;
+}
+.cont1{
+  margin: 25px;
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  width: calc(100% /3);
+  color: #292929;
+} 
+.cont1>p{
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #292929;
+} 
+.banner-icon-plus{
+  padding-left: 3px;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #292929;
+  transform: scale(2.5);
+} 
+.info-bit>h2{
+  margin: 25px;
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #01022F;
+}
+.cont-bit{
+  margin: 25px;
+  text-align: center;
+  width: calc(100% /3);
+  color: #292929; 
+}
+.cont-bit>mat-card{
+  height: 250px;
+  border-radius: 25px;
+  background: #F4F4F4;
+}
+.cont-bit>mat-card>mat-card-title{
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+.cont-bit>mat-card>mat-card-content{
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+  color: #171616;
+}
+.cont-bit>.cont-bit-img1{
+  background: url(../../../assets/img/img-info-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.cont-bit>.cont-bit-img2{
+  background: url(../../../assets/img/img-info-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.cont-bit>.cont-bit-img3{
+  background: url(../../../assets/img/img-info3.png);
+  background-size: cover;
+  background-position: center;
+}
+.cont-bit>.mat-card>.mat-card-content>.mat-list{
+  padding: 0; 
+}
+
+
+
+
+
+
+

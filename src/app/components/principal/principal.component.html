@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIT MX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+<div>
+    <mat-toolbar class="nav">
+        <span class="logo-bit" ><img   src="../../../assets/img/logobit.png" alt="BITMX"></span>
+          <span>My App</span>
+          <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+        <button mat-raised-button color="primary" (click)="BTNlogin()">Basic</button>
+    </mat-toolbar>  
+</div>
+<div class="fondo">
+  <div class="wrap">
+    <h1 class="wrap-texto">BIT 2023</h1>
+    <h2 class="wrap-texto2">#IMPULSA TU REALIDAD</h2>
+    <br>
+    <mat-divider class="divider1"></mat-divider>
+    <p  class="wrap-info-date">Marzo 24 y 25, 2023, 09:05 AM </p>     
+    <br> 
+    <mat-divider class="divider2"></mat-divider>
+    <p class="wrap-info-ubi"> Casa Don Luis Jardín Boutique, Oaxaca</p> 
+    <button mat-raised-button class="btn-registrate" (click)="BTNlogin()">REGISTRATE</button>
+  </div>
+  <div class="contenido" >
+    <div class="cont1">
+      <span>2,000<mat-icon class="banner-icon-plus" aria-hidden="false" fontIcon="add"></mat-icon></span>
+        <p>ASISTENTES</p>
+    </div>
+    <mat-divider class="divider3"></mat-divider>
+    <div class="cont1">
+      <span>20<mat-icon class="banner-icon-plus" aria-hidden="false" fontIcon="add"></mat-icon></span>
+        <p>TALLERISTAS</p>
+    </div>
+    <mat-divider class="divider4"></mat-divider>
+    <div class="cont1">
+      <span>2</span>
+        <p>DÌAS DE INNOVACIÒN</p>
+    </div>
+  </div>
+  <div class="info-bit">
+    <h2>Business, Innovation & Technology</h2>
+    <div class="contenido" >
+      <div class="cont-bit">
+        <mat-card>
+          <mat-card-title>¿Qué es el BIT MX?</mat-card-title>
+          <mat-card-content>Es la plataforma que busca desarrollar, impulsar e
+            intercambiar conocimiento sobre nuevos negocios,
+            innovación y tecnología para enfrentar rápida y
+            positivamente los retos que el mundo nos presenta.
+          </mat-card-content>
+        </mat-card>
+        <br>
+        <mat-card class="cont-bit-img2"></mat-card>
+      </div>
+      <div class="cont-bit">
+        <mat-card class="cont-bit-img1" ></mat-card>
+        <br>
+        <mat-card>
+          <mat-card-title>¿QUIÉNES ASISTIRÁN AL BIT MX?</mat-card-title>
+          <mat-card-content>
+            <mat-list>
+              <mat-list-item> <mat-icon class="list-icon-grade" aria-hidden="false" fontIcon="star_border"></mat-icon>Estudiantes universitarios. </mat-list-item>
+              <mat-list-item> <mat-icon class="list-icon-grade" aria-hidden="false" fontIcon="star_border"></mat-icon>Emprendedores en potencia. </mat-list-item>
+              <mat-list-item> <mat-icon class="list-icon-grade" aria-hidden="false" fontIcon="star_border"></mat-icon>Aliados estratégicos. </mat-list-item>
+             </mat-list>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="cont-bit">
+        <mat-card>
+          <mat-card-title>PRESENTADO POR</mat-card-title>
+          <img mat-card-lg-image src="../../../assets/img/img-info4.png" alt="Photo of BIT">  
+        </mat-card> 
+        <br>
+        <mat-card class="cont-bit-img3" ></mat-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
