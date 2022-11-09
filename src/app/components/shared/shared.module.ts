@@ -9,6 +9,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -22,7 +23,8 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     MatDividerModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule
   ],
   exports:[
     MatSliderModule,
@@ -31,7 +33,8 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     MatDividerModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule
   ]
 })
 export class SharedModule { }
