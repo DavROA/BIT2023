@@ -1,2 +1,31 @@
-<button mat-raised-button color="primary" (click)="BTNinicio()">Basic</button>
+<p>
+    <mat-toolbar>
+      <span>BIT 2023</span>
+      <span class="example-spacer"></span>
+      <ul>
+        <li><a href="#home">Planes</a></li>
+        <li><a href="#contact">Talleres</a></li>
+        <li><a class="active"  (click)="BTNinicio()">Login</a></li>
+      </ul>
+    </mat-toolbar>
+  </p>
 
+<div class="body">
+    <div>
+        <mat-spinner * ngIf="loading" class="spinner" diameter="50"></mat-spinner>
+        <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="ingresar()">
+            <img src="" width="50%">
+            <h1>Login</h1>
+            <mat-form-field class="ancho" appearance="fill">
+                <mat-label>Correo</mat-label>
+                <input type="text" matInput autocomplete="off" formControlName="email">
+            </mat-form-field>
+            <mat-form-field class="ancho" appearance="fill">
+                <mat-label>Contraseña</mat-label>
+                <input type="password" matInput autocomplete="off" formControlName="password">
+            </mat-form-field>
+                <br>
+                <button type="aubmit" class="ancho button" mat-raised-button color="primary" [disabled]="form.invalid">Ingresar</button>
+        </form>
+    </div>
+</div>  

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-inicio-planes',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioPlanesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  BTNr_completo(){
+    this.router.navigate(['registro-completo'])  
   }
 
 }

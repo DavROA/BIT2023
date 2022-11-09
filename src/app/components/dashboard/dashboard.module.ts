@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { InicioPlanesComponent } from './inicio-planes/inicio-planes.component';
 import { TalleresComponent } from './talleres/talleres.component';
 import { PagoComponent } from './pago/pago.component';
+import { FooterComponent } from './footer/footer.component';
+import { RegistroCompletoComponent } from './registro-completo/registro-completo.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { PagoComponent } from './pago/pago.component';
     NavbarComponent,
     InicioPlanesComponent,
     TalleresComponent,
-    PagoComponent
+    PagoComponent,
+    FooterComponent,
+    RegistroCompletoComponent
   ],
   imports: [
     CommonModule,
