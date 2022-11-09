@@ -5,94 +5,203 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BIT MX</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div>
-    <mat-toolbar class="nav">
+  <div>
+    <mat-toolbar>
         <span class="logo-bit" ><img   src="../../../assets/img/logobit.png" alt="BITMX"></span>
-          <span>My App</span>
-          <span class="example-spacer"></span>
-      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-        <mat-icon>favorite</mat-icon>
-      </button>
-      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-        <mat-icon>share</mat-icon>
-      </button>
-        <button mat-raised-button color="primary" (click)="BTNlogin()">Basic</button>
-    </mat-toolbar>  
-</div>
-<div class="fondo">
-  <div class="wrap">
-    <h1 class="wrap-texto">BIT 2023</h1>
-    <h2 class="wrap-texto2">#IMPULSA TU REALIDAD</h2>
+        <span class="example-spacer"></span>
+        <ul>
+          <li><a href="">Planes</a></li>
+          <li><a href="">Talleres</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </mat-toolbar>  
+  </div>
+  <div class="fondo">
+    <div class="wrap">
+      <h1 class="wrap-texto">BIT 2023</h1>
+      <h2 class="wrap-texto2">#IMPULSA TU REALIDAD</h2>
+      <br>
+      <mat-divider class="divider1"></mat-divider>
+      <p  class="wrap-info-date">Marzo 24 y 25, 2023, 09:05 AM </p>     
+      <br> 
+      <mat-divider class="divider2"></mat-divider>
+      <p class="wrap-info-ubi"> Casa Don Luis Jardín Boutique, Oaxaca</p> 
+      <button mat-raised-button class="btn-registrate" (click)="BTNlogin()">REGISTRATE</button>
+    </div> 
+  </div>
+  <div style="background-color: #838181;">
+    <mat-grid-list  cols="3" rowHeight="100px" gutterSize="4px" style="margin-top: 1.5rem !important;" >
+      <mat-grid-tile  class="cont1">
+        <span>2,000<mat-icon class="banner-icon-plus"><i class="fa fa-plus" aria-hidden="true"></i> </mat-icon>
+        <br><p class="cont1_1" >ASISTENTES</p>
+        </span>
+      </mat-grid-tile>
+      <mat-grid-tile  class="cont1">
+        <span>20<mat-icon class="banner-icon-plus"><i class="fa fa-plus" aria-hidden="true"></i> </mat-icon>
+          <br><p class="cont1_1">TALLERISTAS</p>
+        </span>
+      </mat-grid-tile>
+      <mat-grid-tile  class="cont1">
+        <span>2
+          <br><p class="cont1_1">DÌAS DE INNOVACIÒN</p>
+        </span>
+      </mat-grid-tile>
+    </mat-grid-list>    
+  </div>
+  <h2 class="info-bit">Business, Innovation & Technology</h2>
+  <mat-grid-list cols="3" rowHeight="300px" gutterSize="0rem">
+     <mat-grid-tile>
+       <mat-card class="cont-bit">
+         <mat-card-title>¿Qué es el BIT MX?</mat-card-title>
+         <mat-card-content class="cont-card-bit">Es la plataforma que busca desarrollar, impulsar e
+           intercambiar conocimiento sobre nuevos negocios,
+           innovación y tecnología para enfrentar rápida y
+           positivamente los retos que el mundo nos presenta.
+         </mat-card-content>
+       </mat-card>
+     </mat-grid-tile>
+     <mat-grid-tile> 
+       <mat-card class="cont-bit" >
+        <img mat-card-image class="img-bit" src="../../../assets/img/img-info-1.jpg" alt="">
+       </mat-card>
+     </mat-grid-tile>
+     <mat-grid-tile >
+       <mat-card  class="cont-bit">
+         <mat-card-title>PRESENTADO POR</mat-card-title>
+          <img class="img-bitp" src="../../../assets/img/img-info4.png" alt="Photo of BIT">  
+         </mat-card> 
+     </mat-grid-tile>
+     <mat-grid-tile>
+       <mat-card class="cont-bit"> 
+         <img mat-card-image class="img-bit" src="../../../assets/img/img-info-1.jpg" alt="">
+       </mat-card>
+      </mat-grid-tile>
+     <mat-grid-tile>
+       <mat-card class="cont-bit">
+         <mat-card-title>¿QUIÉNES ASISTIRÁN AL BIT MX?</mat-card-title>
+         <mat-card-content class="cont-card-bit">
+           <mat-list>
+             <mat-list-item><i class="fa-regular fa-star" aria-hidden="true"></i>Estudiantes universitarios. </mat-list-item>
+             <mat-list-item><i class="fa-regular fa-star" aria-hidden="true"></i>Emprendedores en potencia. </mat-list-item>
+             <mat-list-item><i class="fa-regular fa-star" aria-hidden="true"></i>Aliados estratégicos.</mat-list-item>
+           </mat-list>
+         </mat-card-content>
+       </mat-card>
+     </mat-grid-tile>
+     <mat-grid-tile >
+       <mat-card class="cont-bit"> 
+         <img mat-card-image class="img-bit" src="../../../assets/img/img-info-1.jpg" alt="">
+       </mat-card>
+     </mat-grid-tile>
+   </mat-grid-list> 
+   <h1 class="info-bit">NUESTROS PLANES</h1>
+   <h2 class="subtitulo-planes">Obtén tu entrada</h2><br>
+   <mat-grid-list cols="4" rowHeight="100px">
+       <mat-grid-tile
+           [colspan]="1"
+           [rowspan]="4"
+           [style.background]="'light'">
+       </mat-grid-tile>
+       <mat-grid-tile
+           [colspan]="1"
+           [rowspan]="4"
+           [style.background]="'light'">
+           <mat-card class="cardplanes">
+                   <div class="image-content">
+                       <span class="overlay"><br>Estudiantes</span> 
+                   </div>
+                   <mat-card-content>
+                       <div class="card-content"><br>
+                           <mat-list class="list-register">
+                               <mat-list-item class="precio" ><h2 class="name"><br> $ 680.00 MX</h2></mat-list-item>
+                               <mat-divider></mat-divider>
+                               <mat-list-item><p class="description">Acceso al evento por Zoom.</p></mat-list-item>
+                               <mat-divider></mat-divider>
+                               <mat-list-item><p class="description">Acceso presencial (aforo limitado previo registro por día).</p></mat-list-item>
+                               <mat-divider></mat-divider>
+                               <mat-list-item><p class="description">1 BIT Kit</p></mat-list-item>
+                               <mat-divider></mat-divider>
+                             </mat-list>
+                           <button class="button">Registrate</button>
+                       </div>  
+                   </mat-card-content>
+           </mat-card>
+       </mat-grid-tile>
+       <mat-grid-tile
+           [colspan]="1"
+           [rowspan]="4"
+           [style.background]="'light'">
+           <mat-card class="cardplanes">
+                   <div class="image-content">
+                       <span class="overlay-ext"><br>Externos</span> 
+                   </div>
+                   <mat-card-content>
+                       <div class="card-content"><br>
+                           <mat-list class="list-register">
+                               <mat-list-item class="precio"><h2 class="name"><br>$ 680.00 MX</h2></mat-list-item>
+                               <mat-divider></mat-divider>
+                               <mat-list-item><p class="description">Acceso al evento por Zoom.</p></mat-list-item>
+                               <mat-divider></mat-divider>
+                               <mat-list-item><p class="description">Acceso presencial (aforo limitado previo registro por día).</p></mat-list-item>
+                               <mat-divider></mat-divider>
+                               <mat-list-item><p class="description">1 BIT Kit</p></mat-list-item>
+                               <mat-divider></mat-divider>
+                             </mat-list>
+                           <button class="button">Registrate</button>
+                       </div>  
+                   </mat-card-content>
+           </mat-card>
+       </mat-grid-tile>
+       <mat-grid-tile
+           [colspan]="1"
+           [rowspan]="4"
+           [style.background]="'light'">
+       </mat-grid-tile>
+     </mat-grid-list>
+    <h2 class="info-bit">Patrocinadores</h2>
+    <mat-grid-list cols="5" rowHeight="150px" gutterSize="1rem" class="list-patrocinadores">
+      <mat-grid-tile><img class="img-footer" src="../../../assets/img/patrocinadores.png" alt=""></mat-grid-tile>
+      <mat-grid-tile><img class="img-footer" src="../../../assets/img/patrocinador-sandi.png" alt=""></mat-grid-tile>
+      <mat-grid-tile><img class="img-footer" src="../../../assets/img/patrocinadores.png" alt=""></mat-grid-tile>
+      <mat-grid-tile><img class="img-footer" src="../../../assets/img/patrocinador-sandi.png" alt=""></mat-grid-tile>
+      <mat-grid-tile><img class="img-footer" src="../../../assets/img/patrocinadores.png" alt=""></mat-grid-tile>
+    </mat-grid-list>
     <br>
-    <mat-divider class="divider1"></mat-divider>
-    <p  class="wrap-info-date">Marzo 24 y 25, 2023, 09:05 AM </p>     
-    <br> 
-    <mat-divider class="divider2"></mat-divider>
-    <p class="wrap-info-ubi"> Casa Don Luis Jardín Boutique, Oaxaca</p> 
-    <button mat-raised-button class="btn-registrate" (click)="BTNlogin()">REGISTRATE</button>
-  </div>
-  <div class="contenido" >
-    <div class="cont1">
-      <span>2,000<mat-icon class="banner-icon-plus" aria-hidden="false" fontIcon="add"></mat-icon></span>
-        <p>ASISTENTES</p>
-    </div>
-    <mat-divider class="divider3"></mat-divider>
-    <div class="cont1">
-      <span>20<mat-icon class="banner-icon-plus" aria-hidden="false" fontIcon="add"></mat-icon></span>
-        <p>TALLERISTAS</p>
-    </div>
-    <mat-divider class="divider4"></mat-divider>
-    <div class="cont1">
-      <span>2</span>
-        <p>DÌAS DE INNOVACIÒN</p>
-    </div>
-  </div>
-  <div class="info-bit">
-    <h2>Business, Innovation & Technology</h2>
-    <div class="contenido" >
-      <div class="cont-bit">
-        <mat-card>
-          <mat-card-title>¿Qué es el BIT MX?</mat-card-title>
-          <mat-card-content>Es la plataforma que busca desarrollar, impulsar e
-            intercambiar conocimiento sobre nuevos negocios,
-            innovación y tecnología para enfrentar rápida y
-            positivamente los retos que el mundo nos presenta.
-          </mat-card-content>
-        </mat-card>
-        <br>
-        <mat-card class="cont-bit-img2"></mat-card>
-      </div>
-      <div class="cont-bit">
-        <mat-card class="cont-bit-img1" ></mat-card>
-        <br>
-        <mat-card>
-          <mat-card-title>¿QUIÉNES ASISTIRÁN AL BIT MX?</mat-card-title>
-          <mat-card-content>
-            <mat-list>
-              <mat-list-item> <mat-icon class="list-icon-grade" aria-hidden="false" fontIcon="star_border"></mat-icon>Estudiantes universitarios. </mat-list-item>
-              <mat-list-item> <mat-icon class="list-icon-grade" aria-hidden="false" fontIcon="star_border"></mat-icon>Emprendedores en potencia. </mat-list-item>
-              <mat-list-item> <mat-icon class="list-icon-grade" aria-hidden="false" fontIcon="star_border"></mat-icon>Aliados estratégicos. </mat-list-item>
-             </mat-list>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div class="cont-bit">
-        <mat-card>
-          <mat-card-title>PRESENTADO POR</mat-card-title>
-          <img mat-card-lg-image src="../../../assets/img/img-info4.png" alt="Photo of BIT">  
-        </mat-card> 
-        <br>
-        <mat-card class="cont-bit-img3" ></mat-card>
-      </div>
-    </div>
-  </div>
-</div>
-
-
+  <footer class="footer">
+    <mat-grid-list cols="3" rowHeight="300px" gutterSize="0.5rem" class="footer">
+      <mat-grid-tile >
+        <div class="img-div">
+          <img class="footer-img" src="../../../assets/img/logobit.png" alt="Photo of BIT">  
+          <br>
+          <button mat-icon-button class="icon-footer" >
+            <i class="fa-brands fa-facebook"></i>
+          </button>
+          <button mat-icon-button class="icon-footer" >
+            <i class="fa-brands fa-instagram"></i>
+          </button>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile >
+        <mat-list role="list" class="lista-footer">
+          <mat-list-item role="listitem">POLITICA DE PRIVACIDAD</mat-list-item>
+          <mat-list-item role="listitem">PATROCINADORES</mat-list-item>
+          <mat-list-item role="listitem">PRENSA</mat-list-item>
+        </mat-list>
+      </mat-grid-tile>
+      <mat-grid-tile >
+        <mat-list role="list" class="lista-footer">
+          <h2>ATENCIÓN DE CLIENTES</h2>
+          <mat-list-item role="listitem">contacto@congresobit.com</mat-list-item>
+          <mat-list-item role="listitem">(52)951 123 4456</mat-list-item>
+        </mat-list>
+      </mat-grid-tile>
+    </mat-grid-list>
+    <mat-divider class="divider-footer"></mat-divider>
+    <p class="copyright">Copyright © 2022 BIT MX</p>
+  </footer>
 </body>
 </html>
