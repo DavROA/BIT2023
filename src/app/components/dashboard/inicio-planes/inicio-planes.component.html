@@ -1,1 +1,73 @@
-<p>inicio-planes works!</p>
+<h1 class="titulo-planes">NUESTROS PLANES</h1>
+<h2 class="subtitulo-planes">Obtén tu entrada</h2><br>
+
+<mat-grid-list cols="4" rowHeight="100px">
+
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="4"
+        [style.background]="'light'">
+    </mat-grid-tile>
+
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="4"
+        [style.background]="'light'">
+        <mat-card class="cardplanes">
+                <div class="image-content">
+                    <span class="overlay"><br>Estudiantes<br></span> 
+                </div>
+                <mat-card-content>
+                    <div class="card-content"><br>
+                        <mat-list>
+                            <mat-list-item><h2 class="name">$ 680.00 MX</h2></mat-list-item>
+                            <mat-divider></mat-divider>
+                            <mat-list-item><p class="description">Acceso al evento por Zoom.</p></mat-list-item>
+                            <mat-divider></mat-divider>
+                            <mat-list-item><p class="description">Acceso presencial (aforo limitado previo registro por día).</p></mat-list-item>
+                            <mat-divider></mat-divider>
+                            <mat-list-item><p class="description">1 BIT Kit</p></mat-list-item>
+                            <mat-divider></mat-divider>
+                          </mat-list>
+                        <button class="button" (click)="BTNr_completo()">Registrate</button>
+                    </div>  
+                </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="4"
+        [style.background]="'light'">
+        <mat-card class="cardplanes">
+                <div class="image-content">
+                    <span class="overlay"><br>Externos</span> 
+                </div>
+                <mat-card-content>
+                    <div class="card-content"><br>
+                        
+                        <mat-list>
+                            <mat-list-item><h2 class="name">$ 680.00 MX</h2></mat-list-item>
+                            <mat-divider></mat-divider>
+                            <mat-list-item><p class="description">Acceso al evento por Zoom.</p></mat-list-item>
+                            <mat-divider></mat-divider>
+                            <mat-list-item><p class="description">Acceso presencial (aforo limitado previo registro por día).</p></mat-list-item>
+                            <mat-divider></mat-divider>
+                            <mat-list-item><p class="description">1 BIT Kit</p></mat-list-item>
+                            <mat-divider></mat-divider>
+                          </mat-list>
+                        <button class="button">Registrate</button>
+                    </div>  
+                </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile
+        [colspan]="1"
+        [rowspan]="4"
+        [style.background]="'light'">
+    </mat-grid-tile>
+
+  </mat-grid-list>
+
+

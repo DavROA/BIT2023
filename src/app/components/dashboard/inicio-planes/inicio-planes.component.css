@@ -1,0 +1,75 @@
+.titulo-planes{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.subtitulo-planes{
+    text-align: center;
+}
+
+.cardplanes{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    padding: 0%;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.image-content{
+    position:relative;
+    row-gap: 0px;
+    padding: 25px 0px;
+}
+
+.overlay{ /*azul que se encuentra arriba */
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 140%;
+    width: 100%;
+    background-color: #5e93c9; 
+    border-radius: 25px 25px 0 0;
+    font-size: 25px;
+}
+  
+
+
+.name{ /* titulo del color azul */
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(81, 81, 81);
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align:center;
+    
+}
+
+/* -------------BOTON---------------- */
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background: #333845;
+}
